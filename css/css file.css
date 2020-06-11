@@ -1,0 +1,106 @@
+/*
+main colors:
+1---> #46344e background
+2---> #faed25  head
+3---> #9a786f shadow
+*/
+:root
+{
+    --background:#46344e;
+    --head:#faed25;
+    --shadow:#9a786f;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+body
+{
+
+    font-family: cursive;
+    background:var(--background);
+    text-align: center;
+    color: white;
+}
+h1
+{
+    font-family: 'Bangers', cursive;
+    color: var(--head);
+    margin-top: 20px;
+}
+h3
+{
+    font-family: 'Bangers', cursive;
+    font-size: 35px !important;
+    color: var(--shadow) ;
+    border-bottom: solid 1px var(--head);
+}
+img
+{
+    width: 20px;
+    height: 20px;
+}
+label
+{
+    position: absolute;
+    margin-top: -15px;
+}
+.input-style
+{
+    border: none;
+    border-bottom: solid 1px var(--head);
+    background-color: transparent;
+    height: 35px;
+    font-size: 22px;
+    text-align: center;
+}  
+.input-style:focus 
+{
+    box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.63);
+    outline: none;
+}
+
+input::-webkit-inner-spin-button,::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+}
+
+
+
+select
+{
+    width: 200px;
+}
+
+
+.btn-warning
+{
+    padding: 10px 64px 10px 64px !important;
+    margin: 20px;
+    background-color: var(--shadow);
+    border-radius: 40px !important;
+}
+
+.btn-warning:hover
+{
+    border: solid 1px var(--head);
+    background-color: #9a786f;
+    color: white;
+}
+.btn-warning:focus
+{
+    outline: none;
+    box-shadow: 0 0 2px 0.2rem #9a786fa8 !important;
+    border: solid 1px var(--head);
+    color: white;
+}
+
+footer
+{
+    width: 100%;
+    padding: 15px;
+    background-color: #5b55619d;
+    color: rgb(185, 185, 185) !important;
+}
