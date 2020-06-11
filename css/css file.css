@@ -19,7 +19,7 @@ main colors:
 body
 {
 
-    font-family: cursive;
+    font-family:  'Balsamiq Sans', cursive;;
     background:var(--background);
     text-align: center;
     color: white;
